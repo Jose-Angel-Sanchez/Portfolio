@@ -1,0 +1,25 @@
+/*tablet
+@media (min-width: 768px) {
+    
+}*/
+/*mobile*/
+@media (min-width: 360px) {
+    section.about{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        background: var(--cor-de-background);
+        padding: 0 2rem;
+    }
+    h3.about__title{
+        font-size: 1.4rem;
+        color: var(--cor-de-link)
+    }
+    p.about__paragraph{
+        color: var(--cor-de-texto);
+    }
+}
+/*desktop*/
+/*@media (min-width: 940px) {
+
+}*/
